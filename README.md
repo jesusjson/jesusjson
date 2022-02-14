@@ -16,7 +16,7 @@ jesusjson.findOne({admin: "jesusjson"}, async (hata, data) => {
       const jesusjsondata = new jesusjson({
       name: "Mert",
         age: 18,
-        friend = null,
+        friend = "no data display",
         discord_main: "jesujson#4406 / 811320211826933790",
         languages: config.languages,
         servers: config.servers
