@@ -10,7 +10,7 @@ jesusjson.findOne({admin: "jesusjson"}, async (hata, data) => {
     if(!data){
   
       const config = {
-        languages: ["HTML", "CSS", "JavaScript", "PHP", "Pthon", "C#"]
+        languages: ["HTML", "CSS", "JavaScript", "PHP", "Python", "C#"]
       }
 
       const jesusjsondata = new jesusjson({
